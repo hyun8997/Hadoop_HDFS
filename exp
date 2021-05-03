@@ -131,23 +131,63 @@ BroadCasting
     같은 형태 배열 : copy()
     대입으로도 가능
 
+[210430]
+matplot 
 
 
+[210503]
+    barchart
+        barchart는 bar(세로방향), barh(가로방향)
+        bar(x, y) : x축, y축
+
+    histogram
+        hist(bins=)  # bins : 데이터를 집계할 구간 정보   - 바그래프
+        pie(ratio[비율], explode[간격], labels, colors, autopot[소수점 자리수], shadow, startangle[시작각])   - 파이그래프
+            원의 형태 유지 : plt.axis('equal')
+        스캐터 플롯(산점도 함수) : 두 개의 실수 데이터 집합의 상관관계를 살펴볼 때 많이 사용하는 차트
+            scatter(X, Y)
+
+    bubble chart    
 
 
+pandas : 데이터 분석 기능을 제공하는 라이브러리
+       : CSV, Excel, JSON 등의 데이터를 읽고 원하는 데이터 형식으로 변환
+    pandas 자료 구조 : Series, DataFrame
+    
+    pandas 주요 특징들 파일 
 
 
-
-
-
-
-
-
-
-
-
-
-
+DataScience
+1. 문제 정의하기
+    해결하고자 하는 문제를 정의
+        목표 설정: 해결하고자 하는게 무엇인지
+        기간 설정: 언제까지 어떤 결과물을 얻을 것인지
+        평가 방법 설정
+        필요한 데이터 설정: 어떤 방식으로 데이터를 활용할 것인지
+2. 데이터 모으기
+    필요한 데이터를 모을 수 있는 방법을 찾기
+        웹 크롤링: 웹 사이트에서 직접 데이터를 수집
+        자료 모으기: 누군가 이미 모아놓은 데이터를 그대로 사용, 공공기관에서 배포한 자료들
+        파일 읽고 쓰기
+3. 데이터 다듬기
+    데이터의 퀄리티를 높여서 의미있는 분석이 가능하도록 하기
+    garbage in, garbage out
+        데이터 관찰
+        데이터 오류 제거
+        데이터 정리
+4. 데이터 분석하기
+    준비된 데이터로부터 의미를 찾기
+        데이터 파악
+        대이터 변형
+        통계 분석
+        인사이트 발견
+        의미 도출
+5. 커뮤니케이션
+    분석 결과를 다른 사람들에게 전달
+    어떤 문제를 해결하려 했는지, 어떻게 데이터를 모았는지, 어떤 방식으로 인사이트를 얻었는지
+        다양한 시각화
+        커뮤니케이션
+        리포트
 
 
 
@@ -172,18 +212,21 @@ intro_numpy.ipynb                 numpy, numpy 배열, ndarray 다차원 배열 
 [210429]
 <numpy>
 numpyEx01.ipynb                   numpy 기술 통계, 선형대수, BroadCasting, 3차원 배열, 배열 복사 방법
+[210430]    
+matplot 한듯
+[210503]
+<matplot>   이 경로는 바뀔수도?
+matplotEx2.ipynb                  barchart, histogram,
+<pandas>
+pandasEx01.ipynb                  pandas : Series, DataFrame
+DataScience.ipynb                 
+pandasEx02.ipynb                  색인 객체, 재색인, 보간
+pandasEx03.ipynb                  연산
 
 
 
 
-
-
-
-
-
-
-
-
+0430~0504 까지 모두 받아서 다시 넣어야 할듯?
 
 
 
