@@ -215,7 +215,7 @@ numpyEx01.ipynb                   numpy 기술 통계, 선형대수, BroadCastin
 [210430]    
 matplot 한듯
 [210503]
-<matplot>   이 경로는 바뀔수도?
+<visualize>
 matplotEx2.ipynb                  barchart, histogram,
 <pandas>
 pandasEx01.ipynb                  pandas : Series, DataFrame
@@ -223,13 +223,11 @@ DataScience.ipynb
 pandasEx02.ipynb                  색인 객체, 재색인, 보간
 pandasEx03.ipynb                  연산
 
-
-
-
-0430~0504 까지 모두 받아서 다시 넣어야 할듯?
-
-
-
+[210507]
+intro_ml.ipynb
+intro_ml2.ipynb
+intro_ml3.ipynb                   Kaggle 기본 예제, 타이타닉 탑승자 데이터를 기반으로 생존자 예측해보기
+intro_ml4.ipynb                   분류의 성능 평가 지표
 
 
 
